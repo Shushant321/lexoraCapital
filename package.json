@@ -9,6 +9,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node backend/server.js",
     "client": "vite",
     "server": "node backend/server.js",
     "build": "vite build",
