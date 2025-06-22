@@ -128,7 +128,7 @@ router.post('/seed', async (req, res) => {
         rating: 4.2
       },
       {
-        name: 'Premium Credit Card',
+        name: 'Premium Balance Transfer',
         type: 'credit-card',
         interestRate: 3.5,
         maxAmount: 500000,
@@ -141,7 +141,7 @@ router.post('/seed', async (req, res) => {
         rating: 4.6
       },
       {
-        name: 'Gold Loan Instant',
+        name: 'Loan Against Property Instant',
         type: 'gold-loan',
         interestRate: 11.5,
         maxAmount: 1000000,

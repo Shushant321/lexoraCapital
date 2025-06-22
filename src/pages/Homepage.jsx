@@ -69,7 +69,7 @@ const Homepage = () => {
       hoverColor: 'group-hover:bg-orange-600'
     },
     {
-      name: 'Credit Card',
+      name: 'Balance Transfer',
       path: '/products/credit-card',
       icon: CreditCard,
       description: 'Rewards, cashback, offers',
@@ -77,7 +77,7 @@ const Homepage = () => {
       hoverColor: 'group-hover:bg-pink-600'
     },
     {
-      name: 'Gold Loan',
+      name: 'Loan Against Property',
       path: '/products/gold-loan',
       icon: Coins,
       description: 'Instant approval against gold',
@@ -123,7 +123,7 @@ const Homepage = () => {
                 <br />Made Reality
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed">
-                Compare and apply for loans, credit cards, and financial products from India's top banks and NBFCs. Get the best rates with instant approval.
+                Compare and apply for loans, Balance Transfers, and financial products from India's top banks and NBFCs. Get the best rates with instant approval.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link
@@ -265,11 +265,11 @@ const Homepage = () => {
               <div className="text-blue-200">Partner Banks & NBFCs</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-orange-400 mb-2">1M+</div>
+              <div className="text-4xl font-bold text-orange-400 mb-2">1K+</div>
               <div className="text-blue-200">Happy Customers</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-orange-400 mb-2">₹1000Cr+</div>
+              <div className="text-4xl font-bold text-orange-400 mb-2">₹50Cr+</div>
               <div className="text-blue-200">Loans Disbursed</div>
             </div>
             <div>

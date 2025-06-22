@@ -96,8 +96,8 @@ const ProductListing = () => {
       'home-loan': 'Home Loans',
       'car-loan': 'Car Loans',
       'business-loan': 'Business Loans',
-      'credit-card': 'Credit Cards',
-      'gold-loan': 'Gold Loans'
+      'credit-card': 'Balance Transfers',
+      'gold-loan': 'Loan Against Propertys'
     };
     return type ? typeLabels[type] || 'Products' : 'All Products';
   };

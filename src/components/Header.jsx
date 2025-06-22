@@ -12,8 +12,8 @@ const Header = () => {
     { name: 'Home Loan', path: '/products/home-loan', icon: Building2 },
     { name: 'Car Loan', path: '/products/car-loan', icon: Car },
     { name: 'Business Loan', path: '/products/business-loan', icon: Briefcase },
-    { name: 'Credit Card', path: '/products/credit-card', icon: CreditCard },
-    { name: 'Gold Loan', path: '/products/gold-loan', icon: Coins },
+    { name: 'Balance Transfer', path: '/products/credit-card', icon: CreditCard },
+    { name: 'Loan Against Property', path: '/products/gold-loan', icon: Coins },
     { name: 'EMI Calculator', path: '/emi-calculator', icon: Calculator },
   ];
 

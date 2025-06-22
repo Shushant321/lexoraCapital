@@ -14,8 +14,8 @@ const ProductCard = ({ product, onApply }) => {
       'home-loan': 'Home Loan',
       'car-loan': 'Car Loan',
       'business-loan': 'Business Loan',
-      'credit-card': 'Credit Card',
-      'gold-loan': 'Gold Loan'
+      'credit-card': 'Balance Transfer',
+      'gold-loan': 'Loan Against Property'
     };
     return typeLabels[type] || type;
   };

@@ -38,12 +38,12 @@ const Blog = () => {
     },
     {
       id: 4,
-      title: 'Best Credit Cards for Different Lifestyles',
-      excerpt: 'Compare credit cards based on your spending patterns, lifestyle, and financial goals.',
+      title: 'Best Balance Transfers for Different Lifestyles',
+      excerpt: 'Compare Balance Transfers based on your spending patterns, lifestyle, and financial goals.',
       author: 'Sneha Gupta',
       date: '2025-01-08',
       readTime: '7 min read',
-      category: 'Credit Cards',
+      category: 'Balance Transfers',
       image: 'https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
       icon: CreditCard
     },
@@ -71,7 +71,7 @@ const Blog = () => {
     }
   ];
 
-  const categories = ['All', 'Personal Finance', 'Home Loans', 'Credit Score', 'Credit Cards', 'Financial Planning', 'Business Loans'];
+  const categories = ['All', 'Personal Finance', 'Home Loans', 'Credit Score', 'Balance Transfers', 'Financial Planning', 'Business Loans'];
   const [selectedCategory, setSelectedCategory] = React.useState('All');
 
   const filteredPosts = selectedCategory === 'All' 

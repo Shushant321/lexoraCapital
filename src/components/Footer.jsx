@@ -18,7 +18,7 @@ const Footer = () => {
               <span className="text-xl font-bold">LexoraCapital</span>
             </Link>
             <p className="text-blue-200 text-sm leading-relaxed">
-              Your trusted partner for all financial needs. Compare and apply for loans, credit cards, and financial products from top banks and NBFCs.
+              Your trusted partner for all financial needs. Compare and apply for loans, Balance Transfers, and financial products from top banks and NBFCs.
             </p>
             <div className="flex space-x-4">
               <Facebook className="w-5 h-5 text-blue-200 hover:text-white cursor-pointer" />
@@ -36,8 +36,8 @@ const Footer = () => {
               <li><Link to="/products/home-loan" className="text-blue-200 hover:text-white transition-colors">Home Loan</Link></li>
               <li><Link to="/products/car-loan" className="text-blue-200 hover:text-white transition-colors">Car Loan</Link></li>
               <li><Link to="/products/business-loan" className="text-blue-200 hover:text-white transition-colors">Business Loan</Link></li>
-              <li><Link to="/products/gold-loan" className="text-blue-200 hover:text-white transition-colors">Gold Loan</Link></li>
-              <li><Link to="/products/credit-card" className="text-blue-200 hover:text-white transition-colors">Credit Cards</Link></li>
+              <li><Link to="/products/gold-loan" className="text-blue-200 hover:text-white transition-colors">Loan Against Property</Link></li>
+              <li><Link to="/products/credit-card" className="text-blue-200 hover:text-white transition-colors">Balance Transfers</Link></li>
             </ul>
           </div>
 
@@ -60,7 +60,7 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-orange-500" />
-                <span className="text-blue-200">+91 8707297320</span>
+                <span className="text-blue-200">+91 9958588988 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-orange-500" />
@@ -69,8 +69,8 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-orange-500 mt-0.5" />
                 <span className="text-blue-200">
-                  123 Financial District,<br />
-                  Mumbai, Maharashtra 400001
+                  B 60 Sec 57 <br />
+                  Noida
                 </span>
               </div>
             </div>
