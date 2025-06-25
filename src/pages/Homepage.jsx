@@ -48,7 +48,7 @@ const Homepage = () => {
       name: 'Home Loan',
       path: '/products/home-loan',
       icon: Home,
-      description: 'Low interest rates, tax benefits',
+      description: 'Turn your dream home into reality with affordable home loans',
       color: 'bg-green-500',
       hoverColor: 'group-hover:bg-green-600'
     },
@@ -56,7 +56,7 @@ const Homepage = () => {
       name: 'Car Loan',
       path: '/products/car-loan',
       icon: Car,
-      description: 'Easy EMI, quick processing',
+      description: 'Drive your dreams with our quick and easy car loan sol',
       color: 'bg-purple-500',
       hoverColor: 'group-hover:bg-purple-600'
     },
@@ -64,7 +64,7 @@ const Homepage = () => {
       name: 'Business Loan',
       path: '/products/business-loan',
       icon: Briefcase,
-      description: 'Grow your business with us',
+      description: 'Fuel your growth with smart business idea',
       color: 'bg-orange-500',
       hoverColor: 'group-hover:bg-orange-600'
     },
@@ -72,7 +72,7 @@ const Homepage = () => {
       name: 'Balance Transfer',
       path: '/products/credit-card',
       icon: CreditCard,
-      description: 'Rewards, cashback, offers',
+      description: 'High interest “? Switch to savings with our seamless balance transfer plans',
       color: 'bg-pink-500',
       hoverColor: 'group-hover:bg-pink-600'
     },
@@ -80,7 +80,7 @@ const Homepage = () => {
       name: 'Loan Against Property',
       path: '/products/gold-loan',
       icon: Coins,
-      description: 'Instant approval against gold',
+      description: 'Unlock the power of your property with high value loans ',
       color: 'bg-yellow-500',
       hoverColor: 'group-hover:bg-yellow-600'
     }
@@ -112,14 +112,14 @@ const Homepage = () => {
   return (
     <div className="space-y-8" style={{ background: '#F5F7FA' }}>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-[#0A3D62] via-[#1B1464] to-[#3C40C6] text-white overflow-hidden">
+      <section className="relative bg-gradient-to-r from-[#002147] via-[#002147] to-[#002147] text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                 Your Financial
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600"> Dreams</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f67d03e3] to-[#ff9f1e]"> Dreams</span>
                 <br />Made Reality
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed">
@@ -128,7 +128,7 @@ const Homepage = () => {
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link
                   to="/products"
-                  className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2"
+                  className="bg-gradient-to-r from-[#f67d03e3] to-[#ff9f1e] text-white px-8 py-4 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2"
                 >
                   <span>Explore Products</span>
                   <ArrowRight className="w-5 h-5" />
@@ -257,7 +257,7 @@ const Homepage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-gradient-to-r from-[#0A3D62] via-[#1B1464] to-[#3C40C6] text-white overflow-hidden">
+      <section className="bg-gradient-to-r from-[#002147] via-[#002147] to-[#002147] text-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
