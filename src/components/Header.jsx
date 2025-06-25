@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import logo from '../assests/logooo.jpg'; // Adjust the path as necessary
 import {
   Menu,
   X,
@@ -67,7 +68,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/logooo.jpg"
+              src={logo}
               alt="Lexora Logo"
               className="w-8 h-8 rounded-lg object-cover"
             />
