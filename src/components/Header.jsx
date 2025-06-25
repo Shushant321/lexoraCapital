@@ -67,7 +67,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/logoo.png"
+              src="/logooo.jpg"
               alt="Lexora Logo"
               className="w-8 h-8 rounded-lg object-cover"
             />
