@@ -2,9 +2,8 @@ import axios from 'axios';
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL, // Use environment variable
-  withCredentials: true, // Add this line
+  withCredentials: true, // Keep this for cookies
 });
-
 
 // Add token to requests
 api.interceptors.request.use((config) => {
