@@ -11,7 +11,7 @@ const EMICalculator = () => {
   const calculateEMI = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/emi`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/emi`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
